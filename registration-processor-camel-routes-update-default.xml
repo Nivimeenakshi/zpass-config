@@ -320,7 +320,8 @@
             <to uri="eventbus://verification-bus-in" />
          </when>
          <otherwise>
-            <to uri="eventbus://bio-dedupe-bus-in" />
+          <!-- <to uri="eventbus://bio-dedupe-bus-in" /> -->
+           <to uri="eventbus://uin-generator-bus-in" />
          </otherwise>
       </choice>
    </route>
@@ -528,7 +529,9 @@
             <to uri="workflow-cmd://anonymous-profile" />
          </when>
          <otherwise>
-            <to uri="eventbus://printing-bus-in" />
+	    <!-- <<to uri="eventbus://printing-bus-in" /> -->
+            <to uri="workflow-cmd://complete-as-processed" />
+            <to uri="workflow-cmd://anonymous-profile" />
          </otherwise>
       </choice>
    </route>
