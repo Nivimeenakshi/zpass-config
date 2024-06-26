@@ -7,7 +7,10 @@
 			"value" : "selectedHandles"
 		},
 		"name": {
-			"value": "fullName"
+			"value": "firstName,lastName"
+		},
+		"fullName": {
+			"value": "firstName,lastName"
 		},
 		"gender": {
 			"value": "gender"
@@ -31,10 +34,10 @@
 			"value": "introducerName"
 		},
 		"phone": {
-			"value": "phone"
+			"value": "phoneNumber"
 		},
 		"phoneNumber": {
-			"value": "phone"
+			"value": "phoneNumber"
 		},
 		"email": {
 			"value": "email"
@@ -47,6 +50,9 @@
 		},
 		"vid": {
 			"value": "VID"
+		},
+		"nrcId": {
+			"value": "nrcId"
 		},
 		"individualBiometrics": {
 			"value": "individualBiometrics"
@@ -62,9 +68,6 @@
 		},
 		"supervisorBiometricFileName": {
 			"value": "supervisorBiometricFileName"
-		},
-		"residenceStatus": {
-			"value": "residenceStatus"
 		},
 		"preferredLanguage": {
 			"value": "preferredLang"
@@ -109,12 +112,17 @@
 			"value": "face"
 		},
 		"phone_number": {
-			"value": "phone"
+			"value": "phoneNumber"
 		},
 		"address": {
 			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
 		},
-
+                "phone_number_verified": {
+                       "value": "phoneVerified"
+                },
+	        "updated_at": {
+           	       "value": "updatedAt"
+                },
 		"individual_id": {
 			"value": "individual_id"
 		},
