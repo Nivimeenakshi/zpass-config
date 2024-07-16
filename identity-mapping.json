@@ -12,6 +12,12 @@
 		"fullName": {
 			"value": "firstName,lastName"
 		},
+		"firstName": {
+			"value": "firstName"
+		},
+		"lastName": {
+			"value": "lastName"
+		},
 		"gender": {
 			"value": "gender"
 		},
@@ -48,9 +54,6 @@
 		"uin": {
 			"value": "UIN"
 		},
-		"vid": {
-			"value": "VID"
-		},
 		"nrcId": {
 			"value": "nrcId"
 		},
@@ -73,34 +76,22 @@
 			"value": "preferredLang"
 		},
 		"locationHierarchyForProfiling": {
-			"value": "zone,postalCode"
+			"value": "district,constituency"
 		},
-		"addressLine1": {
-			"value": "addressLine1"
-		},
-		"addressLine2": {
-			"value": "addressLine2"
-		},
-		"addressLine3": {
-			"value": "addressLine3"
+		"addressLine": {
+			"value": "addressLine"
 		},
 		"location1": {
-			"value": "city"
-		},
-		"location2": {
-			"value": "region"
-		},
-		"location3": {
 			"value": "province"
 		},
-		"postalCode": {
-			"value": "postalCode"
+		"location2": {
+			"value": "district"
 		},
-		"location4": {
-			"value": "zone"
+		"location3": {
+			"value": "constituency"
 		},
 		"fullAddress": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine,province,district,constituency"
 		},
 		"bestTwoFingers": {
 			"value": "bestTwoFingers"
@@ -115,7 +106,7 @@
 			"value": "phoneNumber"
 		},
 		"address": {
-			"value": "addressLine1,addressLine2,addressLine3,city,region,province,postalCode"
+			"value": "addressLine,province,district,constituency"
 		},
                 "phone_number_verified": {
                        "value": "phoneVerified"
@@ -130,18 +121,15 @@
 		   "value": "fln,ad1,ad2,ad3,cit,reg,pro,poc,cph,em,ph,gen,dob"
 		},  
 		"street_address": {
-			"value": "addressLine1,addressLine2,addressLine3"
+			"value": "addressLine"
 		},
-		"locality": {
-			"value": "city"
+		"constituency": {
+			"value": "constituency"
 		},
-		"region": {
-			"value": "region"
+		"district": {
+			"value": "district"
 		},
-		"postal_code": {
-			"value": "postalCode"
-		},
-		"country": {
+		"province": {
 			"value": "province"
 		},
 		"password": {
